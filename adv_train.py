@@ -32,7 +32,7 @@ import utils
 
 if __name__=='__main__':
 
-  parser = argparse.ArgumentParser(description='PASS on Cifar-10: Transductive Setting')
+  parser = argparse.ArgumentParser(description='Original adversarial training')
   parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
   args = parser.parse_args()
 

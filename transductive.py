@@ -2,7 +2,7 @@
 Adversarially Robust Generalization Just Requires More Unlabeled Data
 NeurIPS 2019 submission
 
-Robust SSL for Cifar-10: Transductive Setting
+PASS on Cifar-10: Transductive Setting
 
 In the transductive setting, the test set is used as unlabeled data.
 All labels in the test set will be masked out.
@@ -30,7 +30,7 @@ import utils
 
 if __name__=='__main__':
 
-  parser = argparse.ArgumentParser(description='Robust SSL on Cifar-10: Transductive Setting')
+  parser = argparse.ArgumentParser(description='PASS on Cifar-10: Transductive Setting')
   parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
   parser.add_argument('--lbd', default=0.125, type=float, help='weight of unlabeled data')
   args = parser.parse_args()
