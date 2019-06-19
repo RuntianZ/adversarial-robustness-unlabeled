@@ -1,6 +1,6 @@
 # Adversarially Robust Generalization Just Requires More Unlabeled Data
 
-This is the repository for the paper Adversarially Robust Generalization Just Requires More Unlabeled Data in NeurIPS 2019.
+This is the repository for the paper Adversarially Robust Generalization Just Requires More Unlabeled Data submitted to NeurIPS 2019 ([paper link](https://arxiv.org/abs/1906.00555)).
 
 ## Code Files
 
