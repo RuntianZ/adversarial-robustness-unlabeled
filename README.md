@@ -28,3 +28,27 @@ The following checkpoints are included.
 | 10k-{0.0,0.1,0.2,0.3}.t7 | 10k experiment with lambda = 0.0,0.1,0.2,0.3 
 | transductive.t7 | Transductive setting with lambda = 0.125 |
 | pgd7_adv_train.t7 | Original adversarial training |
+
+## Cite
+Please cite our paper with the following BibTeX entry:
+```
+@article{DBLP:journals/corr/abs-1906-00555,
+  author    = {Runtian Zhai and
+               Tianle Cai and
+               Di He and
+               Chen Dan and
+               Kun He and
+               John E. Hopcroft and
+               Liwei Wang},
+  title     = {Adversarially Robust Generalization Just Requires More Unlabeled Data},
+  journal   = {CoRR},
+  volume    = {abs/1906.00555},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1906.00555},
+  archivePrefix = {arXiv},
+  eprint    = {1906.00555},
+  timestamp = {Thu, 13 Jun 2019 13:36:00 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1906-00555},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
